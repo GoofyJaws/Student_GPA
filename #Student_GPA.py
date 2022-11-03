@@ -27,6 +27,6 @@ while lastname != "ZZZ":
     
     #If not any of these then it will diplay say that the person cannot be on the Dean's List or the Honor Roll.
     else:
-        print (lastname + ", " + firstname+ " does not qualify for either the Dean's List or the Honor Roll, with a GPA of " + str(gpa) +".\n")
+        print (lastname + ", " + firstname+ " does not qualify for either the Dean's List or the Honor Roll with a GPA of " + str(gpa) +".\n")
 
     lastname = input("Enter the last name or type ZZZ to quit: ")
