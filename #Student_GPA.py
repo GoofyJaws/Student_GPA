@@ -4,7 +4,7 @@
 #This program will recieve a name and a gpa input and then it will check whether or not that person should be on Dean's List or the Honor Roll.
 
 #The user enters a last name or quits the program
-lastname = input("Enter your last name or 'ZZZ' to quit: ")
+lastname = input("Enter the last name or type 'ZZZ' to quit: ")
 
 #Now the user enters the loop in which multiple names can be tested 
 while lastname != "ZZZ":
@@ -29,4 +29,4 @@ while lastname != "ZZZ":
     else:
         print (firstname + ", " + lastname + " does not qualify for either the Dean's List or the Honor Roll, with a GPA of " + str(gpa) +".\n")
 
-    lastname = input("Enter your last name or 'ZZZ' to quit: ")
+    lastname = input("Enter the last name or type 'ZZZ' to quit: ")
