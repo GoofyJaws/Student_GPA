@@ -18,15 +18,15 @@ while lastname != "ZZZ":
     #The program checks if the gpa is 3.5 or bigger
     if gpa >= 3.5:
         #If so, it will display the last name and the last name together with the Dean's List
-        print (firstname + ", " +  lastname + " made it to the Dean's List with a GPA of " + str(gpa) +".")
+        print (firstname + ", " +  lastname + " made it to the Dean's List with a GPA of " + str(gpa) +".\n")
 
     #If the GPA is 3.25 or bigger
     elif gpa >= 3.25:
         #If so, it will display the last name and the last name together with the Honor Roll 
-        print (firstname + ", " + lastname + " made it to the Honor Roll with a GPA of " + str(gpa) +".")
+        print (firstname + ", " + lastname + " made it to the Honor Roll with a GPA of " + str(gpa) +".\n")
     
     #If not any of these then it will diplay say that the person cannot be on the Dean's List or the Honor Roll.
     else:
-        print (firstname + ", " + lastname + " does not qualify for either the Dean's List or the Honor Roll, with a GPA of " + str(gpa) +".")
+        print (firstname + ", " + lastname + " does not qualify for either the Dean's List or the Honor Roll, with a GPA of " + str(gpa) +".\n")
 
     lastname = input("Enter your last name or 'ZZZ' to quit: ")
